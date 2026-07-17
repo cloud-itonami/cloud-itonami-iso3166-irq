@@ -1,0 +1,14 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "irq.dish.masgouf", :name "Masgouf", :country "IRQ", :kind :dish, :summary "Mesopotamian dish of seasoned, grilled carp, often considered the national dish of Iraq.", :url "https://en.wikipedia.org/wiki/Masgouf", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "irq.dish.quzi", :name "Quzi", :country "IRQ", :kind :dish, :summary "Rice-based dish with slowly cooked lamb, roasted nuts and raisins, considered one of Iraq's national dishes, with variations across the Middle East.", :url "https://en.wikipedia.org/wiki/Quzi", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "irq.dish.kleicha", :name "Kleicha", :country "IRQ", :kind :dish, :summary "Middle Eastern cookie originating from ancient Mesopotamia, traditionally filled with dates, nuts or coconut and flavored with cardamom and rose water; associated primarily with Iraq and also with Saudi Arabia and Syria.", :url "https://en.wikipedia.org/wiki/Kleicha", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "irq.dish.samoon", :name "Samoon", :country "IRQ", :kind :dish, :summary "Yeast bread consumed mainly in Iraq, baked in traditional stone ovens.", :url "https://en.wikipedia.org/wiki/Samoon", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "irq.craft.mudhif", :name "Mudhif", :country "IRQ", :kind :craft, :summary "Traditional reed house constructed by the Marsh Arabs of the southern Iraqi swamps, historically used as a ceremonial gathering space and guest house.", :url "https://en.wikipedia.org/wiki/Mudhif", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "irq.heritage.babylon", :name "Babylon", :country "IRQ", :kind :heritage, :summary "Ancient Mesopotamian city on the lower Euphrates in present-day Iraq, capital of the Old and Neo-Babylonian Empires; inscribed as a UNESCO World Heritage Site in 2019.", :url "https://en.wikipedia.org/wiki/Babylon", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "irq.heritage.citadel-of-erbil", :name "Citadel of Erbil", :country "IRQ", :kind :heritage, :summary "Ancient occupied mound in Iraq's Kurdistan Region with continuous settlement since the 5th millennium BC, possibly the oldest continuously occupied settlement on Earth; a UNESCO World Heritage Site inscribed in 2014.", :url "https://en.wikipedia.org/wiki/Citadel_of_Erbil", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
