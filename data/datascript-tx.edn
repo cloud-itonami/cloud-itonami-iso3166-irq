@@ -1,0 +1,24 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+;; Neither entry carries :statute/enacted-date -- both government sources
+;; (tasjeel.mot.gov.iq, investpromo.gov.iq) give only the law number and
+;; year, not a specific day/month; omitted rather than fabricated.
+
+[#:statute{:id "irq.law-21-1997-companies-law"
+           :title "Law on Company No. 21 of 1997, as amended in 2004 (CPA Order No. 64, March 3, 2004)"
+           :jurisdiction "IRQ"
+           :kind :law
+           :law-number "Law No. 21 of 1997"
+           :url "https://tasjeel.mot.gov.iq/en/law.html"
+           :url-provenance :tasjeel-mot-gov-iq-official-registration-portal
+           :retrieved-at "2026-07-22"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "irq.law-71-1987-labor-law"
+           :title "Law on Labor, No. 71 of 1987, as amended in 2004 (CPA Order No. 89)"
+           :jurisdiction "IRQ"
+           :kind :law
+           :law-number "Law No. 71 of 1987"
+           :url "https://tasjeel.mot.gov.iq/en/law.html"
+           :url-provenance :tasjeel-mot-gov-iq-official-registration-portal
+           :retrieved-at "2026-07-22"
+           :topic [:labor :employment]}]
