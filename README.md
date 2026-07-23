@@ -1,9 +1,12 @@
 # cloud-itonami-iso3166-irq
 
-**IRQ**: Iraq.
+**`:implemented`** for **IRQ**. Flagship `krg-authority-mismatch` (federal
+National Investment Commission vs. Kurdistan Board of Investment), tax
+`cr-unverified` (Companies Registration Directorate / Tasjeel).
 
-- public procurement
-- Company Registry
+```
+clojure -M:dev:test
+```
 
 AGPL-3.0-or-later.
 
