@@ -17,7 +17,7 @@ This repo carries a **country-level regional-culture catalog**
 Wave 1, in `com-junkawasaki/root`) — national dishes, protected products,
 beverages, crafts, festivals and heritage sites for Iraq:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.cljk` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring the `statute.facts` convention of the
   iso3166 siblings).
 - `schema/culture.edn` — DataScript schema.
