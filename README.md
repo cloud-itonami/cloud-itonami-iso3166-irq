@@ -5,7 +5,7 @@ National Investment Commission vs. Kurdistan Board of Investment), tax
 `cr-unverified` (Companies Registration Directorate / Tasjeel).
 
 ```
-clojure -M:dev:test
+kbb -M:dev:test
 ```
 
 AGPL-3.0-or-later.
